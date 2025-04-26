@@ -1,3 +1,4 @@
+import { GrGithub } from "react-icons/gr";
 import { AnimatedBackground } from "./animated-gradient-background";
 import { ThemeSwitcher } from "./theme-switcher";
 
@@ -11,6 +12,9 @@ function App() {
           </span>
           <ThemeSwitcher />
         </div>
+        <a href="https://github.com/dharmeshwr/grainy-bg" className="absolute bottom-7 right-7" target="_blank">
+          <GrGithub size={25} />
+        </a>
       </div>
     </AnimatedBackground>
   );
